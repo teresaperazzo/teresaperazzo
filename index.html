@@ -6,25 +6,51 @@
 <link rel="stylesheet" href="style.css">
 <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet'>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html"class="w3-bar-item w3-button"><b>EP</b> Perazzo & Asociados</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
+
+
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="index.html" class="active"><b>EP</b> Perazzo & Asociados</a>
+    <div id="myLinks">
       <a href="index.html" class="w3-bar-item w3-button">Inicio</a>
       <a href="SERVICIOS.html" class="w3-bar-item w3-button">Areas</a>
       <a href="NOSOTROS.html" class="w3-bar-item w3-button">Nosotros</a>
       <a href="CONTACTO.html" class="w3-bar-item w3-button">Contacto</a>
       <a href="publicaciones.html" class="w3-bar-item w3-button">Publicaciones</a>
       <a href="TRABAJA%20CON%20NOSOTROS.html" class="w3-bar-item w3-button">Trabaja con nosotros</a>
-      
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
 <body>
   <!-- Header -->
@@ -96,9 +122,6 @@ function showSlides() {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="https://www.nuestroseguro.com.ar/wp-content/uploads/2016/09/Galeno-ART.png" alt="Galeno" style="width:100%">
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="https://lh3.googleusercontent.com/proxy/9F38wOplNHhZSTE8JfKdLd17MzPUfzyikHXGJ_sYGHDr5ADE0FMAZcX9qxGxMaStBJ5o4T4QNeLd2mmuam2CnjDMJ8q3eOMVIsnSSZPXAOlZYb_zEuqS1xO2hVK1BhWRFvjc" alt="Providencia" style="width:100%">
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="https://d31dn7nfpuwjnm.cloudfront.net/images/valoraciones/0034/0276/La_Caja_Seguros_Automotor_coberturas__servicios_y_poliza.?1558148751" alt="La Caja" style="width:70%">
@@ -219,22 +242,15 @@ function showSlides() {
         <i class="fafa-paper-plane"></i> Enviar mensaje
       </button>
     </form>
-  </div>
+  </div><div></div>
   
-<!-- Image of location/map -->
-<div class="w3-container">
-  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+  
+
+
 </div>
-
-<!-- End page content -->
-</div>
-
-</body>
-<!-- Footer -->
-<footer class="w3-center">
-  <p>Estudio Perazzo & Asociados - 2020 </p>
-</footer>
-
+  <footer><div class="footer">
+    <p>Perazzo & Asociados 2020</p></footer>
 
 </html>
+
 
